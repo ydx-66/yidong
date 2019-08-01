@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-container {
+    background-color: #F2F2F2;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2);
+    position: fixed;
+    z-index: 99989;
+    width: 100vw;
+}
+
+/* 顶部搜索栏start */
+.top-search {
+    height: 4rem;
+    /* 将当前盒子变为弹性盒子 */
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+/* search-left */
+.search-left {
+
+}
+
+.search-left img {
+    width: 2.1rem;
+    /* height: 3rem; */
+}
+
+/* search-left end  */
+
+/* search-middle start */
+.search-middle {
+    height: 2.5rem;
+    width: 18rem;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+/* search-middle end */
+/* search-right start */
+.search-right {
+    width: 2rem;
+    height: 2rem;
+    background-color: aqua;
+}
+/* search-right end */
+
+
+
+
+
+/* 顶部搜索栏end */
+
+/* 顶部导航 start */
+.top-nav {
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.top-nav .border-bottom {
+    color: rgb(237, 91, 0);
+    border-bottom: 2px solid rgb(237, 91, 0);
+    /* height: 2.8rem; */
+    /* padding-bottom: 1rem; */
+    line-height: 2.5rem;
+}
+/* 顶部导航 end */
+
+
+/* main start */
+.main {
+    padding-top: 7rem;
+
+}
+
+/* 轮播图 */
+.lunbotu {
+    position: relative;
+}
+
+.main .lunbotu-img {
+    width: 100vw;
+}
+
+.main .dotted-container {
+    width: 4rem;
+    height: 2rem;
+    /* background-color: red; */
+    position: absolute;
+    bottom:1rem;
+    left: 50%;
+    margin-left: -2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main .dotted-container .dotted {
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.main .dotted-container .dotted-color {
+    background-color: #fff;
+}
+
+
+/* 图片导航 */
+.img-nav {
+    background-color: #fff;
+}
+
+.img-nav img{
+    width: 5rem;
+}
+
+
+/* 商品图片 */
+
+.main .product-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+.main .product-container div img,.flex-container img {
+    width: 49vw;
+}
+
+.product-right-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    
+}
+
+.product-right-img img:nth-child(2) {
+    margin-top: 2px;
+}
+
+.main  .flex-container {
+    background-color: #fff;
+    margin-top: 0;
+
+}
+
+.flex-container img {
+    height: 10rem;
+}
+
+
+/* main end */
